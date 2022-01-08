@@ -1,0 +1,6 @@
+drivers/mmc/core/mmc_core.ko
+drivers/mmc/core/pwrseq_simple.ko
+drivers/mmc/core/pwrseq_emmc.ko
+drivers/mmc/core/mmc_block.ko
+drivers/mmc/host/mtk-sd.ko
+drivers/mmc/host/sunxi_mmc_host.ko

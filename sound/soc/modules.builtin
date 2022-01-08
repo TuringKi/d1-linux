@@ -1,0 +1,12 @@
+sound/soc/snd-soc-core.ko
+sound/soc/codecs/snd-soc-ac108.ko
+sound/soc/generic/snd-soc-simple-card-utils.ko
+sound/soc/generic/snd-soc-simple-card.ko
+sound/soc/generic/snd-soc-audio-graph-card.ko
+sound/soc/sunxi/snd-soc-sunxi.ko
+sound/soc/sunxi/snd-soc-sunxi-simple-card.ko
+sound/soc/sunxi/snd-soc-sunxi-dummy-cpudai.ko
+sound/soc/sunxi/snd-soc-sunxi-daudio.ko
+sound/soc/sunxi/snd-soc-sunxi-hdmi.ko
+sound/soc/sunxi/sun20iw1-codec.ko
+sound/soc/sunxi/sun20iw1-sndcodec.ko

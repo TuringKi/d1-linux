@@ -1,0 +1,2 @@
+drivers/mmc/host/mtk-sd.ko
+drivers/mmc/host/sunxi_mmc_host.ko

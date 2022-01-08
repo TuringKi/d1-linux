@@ -1,0 +1,2 @@
+drivers/soc/sunxi/sunxi-sid.ko
+drivers/soc/sunxi/sunxi_riscv_pm.ko

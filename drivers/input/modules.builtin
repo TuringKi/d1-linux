@@ -1,0 +1,5 @@
+drivers/input/input-core.ko
+drivers/input/keyboard/atkbd.ko
+drivers/input/keyboard/sunxi-keyboard.ko
+drivers/input/sensor/sunxi_gpadc.ko
+drivers/input/touchscreen/of_touchscreen.ko

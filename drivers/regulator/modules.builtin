@@ -1,0 +1,2 @@
+drivers/regulator/fixed.ko
+drivers/regulator/sunxi_pwm_regulator.ko

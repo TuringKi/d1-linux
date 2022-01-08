@@ -1,0 +1,5 @@
+drivers/clk/sunxi-ng/ccu-sunxi-ng.ko
+drivers/clk/sunxi-ng/rtc-sunxi-ccu.ko
+drivers/clk/sunxi-ng/ccu-sun8iw20.ko
+drivers/clk/sunxi-ng/ccu-sun8iw20-rtc.ko
+drivers/clk/sunxi-ng/ccu-sun8iw20-r.ko

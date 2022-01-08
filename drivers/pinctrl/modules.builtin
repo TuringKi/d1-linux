@@ -1,0 +1,2 @@
+drivers/pinctrl/sunxi/pinctrl-sunxi.ko
+drivers/pinctrl/sunxi/pinctrl-sun8iw20.ko

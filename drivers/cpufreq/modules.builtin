@@ -1,0 +1,8 @@
+drivers/cpufreq/cpufreq_performance.ko
+drivers/cpufreq/cpufreq_powersave.ko
+drivers/cpufreq/cpufreq_userspace.ko
+drivers/cpufreq/cpufreq_ondemand.ko
+drivers/cpufreq/cpufreq_conservative.ko
+drivers/cpufreq/cpufreq-dt.ko
+drivers/cpufreq/cpufreq-dt-platdev.ko
+drivers/cpufreq/sun50i-cpufreq-nvmem.ko
