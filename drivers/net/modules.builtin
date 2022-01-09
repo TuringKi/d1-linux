@@ -1,0 +1,9 @@
+drivers/net/mii.ko
+drivers/net/can/can-dev.ko
+drivers/net/ethernet/allwinner/sunxi_gmac.ko
+drivers/net/phy/libphy.ko
+drivers/net/phy/fixed_phy.ko
+drivers/net/ppp/ppp_generic.ko
+drivers/net/ppp/bsd_comp.ko
+drivers/net/ppp/ppp_deflate.ko
+drivers/net/slip/slhc.ko
