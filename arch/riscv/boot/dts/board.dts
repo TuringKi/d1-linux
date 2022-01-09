@@ -1019,7 +1019,7 @@ tvd_row*tvd_column is the total tvd channel number to be used in multichannel mo
 	phy-rst = <&pio PE 16 GPIO_ACTIVE_HIGH>;
 	tx-delay = <3>; /*2~4*/
 	rx-delay = <0>;
-	status = "okay";
+	status = "disabled";
 };
 
 &spi0 {
