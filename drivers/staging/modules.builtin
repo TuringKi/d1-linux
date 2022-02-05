@@ -1,2 +1,4 @@
 drivers/staging/android/ion/heaps/ion_sys_heap.ko
 drivers/staging/android/ion/heaps/ion_cma_heap.ko
+drivers/staging/fbtft/fbtft.ko
+drivers/staging/fbtft/fb_st7789v.ko

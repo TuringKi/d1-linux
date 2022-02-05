@@ -1,4 +1,5 @@
 drivers/input/input-core.ko
+drivers/input/evdev.ko
 drivers/input/keyboard/atkbd.ko
 drivers/input/keyboard/sunxi-keyboard.ko
 drivers/input/sensor/sunxi_gpadc.ko

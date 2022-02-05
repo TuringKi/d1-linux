@@ -31,6 +31,7 @@ drivers/i2c/i2c-core.ko
 drivers/i2c/i2c-dev.ko
 drivers/i2c/busses/i2c-sunxi.ko
 drivers/input/input-core.ko
+drivers/input/evdev.ko
 drivers/input/keyboard/atkbd.ko
 drivers/input/keyboard/sunxi-keyboard.ko
 drivers/input/sensor/sunxi_gpadc.ko
@@ -41,6 +42,7 @@ drivers/input/serio/libps2.ko
 drivers/iommu/iova.ko
 drivers/iommu/sunxi-iommu.ko
 drivers/iommu/sunxi-iommu-debug.ko
+drivers/leds/led-class.ko
 drivers/media/rc/ir-nec-decoder.ko
 drivers/media/rc/ir-rc5-decoder.ko
 drivers/media/rc/sunxi-ir-rx.ko
@@ -211,6 +213,8 @@ drivers/soc/sunxi/sunxi_riscv_pm.ko
 drivers/spi/spi-sunxi.ko
 drivers/staging/android/ion/heaps/ion_sys_heap.ko
 drivers/staging/android/ion/heaps/ion_cma_heap.ko
+drivers/staging/fbtft/fbtft.ko
+drivers/staging/fbtft/fb_st7789v.ko
 drivers/thermal/sunxi_thermal.ko
 drivers/tty/serial/sunxi-uart.ko
 drivers/usb/common/usb-common.ko
@@ -239,8 +243,14 @@ drivers/usb/storage/ums-usbat.ko
 drivers/usb/sunxi_usb/sunxi_usbc.ko
 drivers/usb/sunxi_usb/sunxi_usb_udc.ko
 drivers/video/backlight/backlight.ko
-drivers/video/backlight/generic_bl.ko
 drivers/video/fbdev/core/fb.ko
+drivers/video/fbdev/core/cfbfillrect.ko
+drivers/video/fbdev/core/cfbcopyarea.ko
+drivers/video/fbdev/core/cfbimgblt.ko
+drivers/video/fbdev/core/sysfillrect.ko
+drivers/video/fbdev/core/syscopyarea.ko
+drivers/video/fbdev/core/sysimgblt.ko
+drivers/video/fbdev/core/fb_sys_fops.ko
 drivers/video/fbdev/sunxi/disp2/disp/disp.ko
 drivers/video/fbdev/sunxi/disp2/hdmi2/hdmi20.ko
 drivers/virtio/virtio.ko
