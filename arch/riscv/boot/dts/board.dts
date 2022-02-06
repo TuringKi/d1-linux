@@ -1056,8 +1056,6 @@ tvd_row*tvd_column is the total tvd channel number to be used in multichannel mo
 		debug =<1>;                     //不开启调试
 	};
 
-
-
 };
 
 &spi1 {

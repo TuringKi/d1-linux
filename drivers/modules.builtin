@@ -42,7 +42,6 @@ drivers/input/serio/libps2.ko
 drivers/iommu/iova.ko
 drivers/iommu/sunxi-iommu.ko
 drivers/iommu/sunxi-iommu-debug.ko
-drivers/leds/led-class.ko
 drivers/media/rc/ir-nec-decoder.ko
 drivers/media/rc/ir-rc5-decoder.ko
 drivers/media/rc/sunxi-ir-rx.ko
@@ -243,10 +242,8 @@ drivers/usb/storage/ums-usbat.ko
 drivers/usb/sunxi_usb/sunxi_usbc.ko
 drivers/usb/sunxi_usb/sunxi_usb_udc.ko
 drivers/video/backlight/backlight.ko
+drivers/video/backlight/generic_bl.ko
 drivers/video/fbdev/core/fb.ko
-drivers/video/fbdev/core/cfbfillrect.ko
-drivers/video/fbdev/core/cfbcopyarea.ko
-drivers/video/fbdev/core/cfbimgblt.ko
 drivers/video/fbdev/core/sysfillrect.ko
 drivers/video/fbdev/core/syscopyarea.ko
 drivers/video/fbdev/core/sysimgblt.ko
