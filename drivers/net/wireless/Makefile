@@ -30,6 +30,8 @@ obj-$(CONFIG_MAC80211_HWSIM)	+= mac80211_hwsim.o
 
 obj-$(CONFIG_VIRT_WIFI)	+= virt_wifi.o
 
+obj-$(CONFIG_RTL8723DS) += rtl8723ds/
+
 obj-$(CONFIG_XR829_WLAN)   += xr829/
 obj-$(CONFIG_SPARD_WLAN_SUPPORT) += uwe5622/
 obj-$(CONFIG_BCMDHD) += bcmdhd/
