@@ -1143,30 +1143,41 @@ chn_cfg_mode     : Hardware DE channel allocation config. 0:single display with 
 	disp_init_enable         = <1>;
 	disp_mode                = <0>;
 
-	screen0_output_type      = <1>;
-	screen0_output_mode      = <4>;
+	screen0_output_type      = <3>;
+	screen0_output_mode      = <10>;
 
-	screen1_output_type      = <3>;
-	screen1_output_mode      = <10>;
+	screen0_output_format    = <0>;
+	screen0_output_bits      = <0>;
+	screen0_output_eotf      = <4>;
+	screen0_output_cs        = <257>;
+	screen0_output_dvi_hdmi  = <2>;
+	screen0_output_range     = <2>;
+	screen0_output_scan      = <0>;
+	screen0_output_aspect_ratio = <8>;
 
-	screen1_output_format    = <0>;
-	screen1_output_bits      = <0>;
-	screen1_output_eotf      = <4>;
-	screen1_output_cs        = <257>;
-	screen1_output_dvi_hdmi  = <2>;
-	screen1_output_range     = <2>;
-	screen1_output_scan      = <0>;
-	screen1_output_aspect_ratio = <8>;
+	screen1_output_type      = <1>;
+	screen1_output_mode      = <4>;
 
-	dev0_output_type         = <1>;
-	dev0_output_mode         = <4>;
+	// screen1_output_format    = <0>;
+	// screen1_output_bits      = <0>;
+	// screen1_output_eotf      = <4>;
+	// screen1_output_cs        = <257>;
+	// screen1_output_dvi_hdmi  = <2>;
+	// screen1_output_range     = <2>;
+	// screen1_output_scan      = <0>;
+	// screen1_output_aspect_ratio = <8>;
+
+	dev0_output_type         = <4>;
+
+	// dev0_output_mode <10>就是1080p <5> 就是720p <2> 就是360p
+	dev0_output_mode         = <2>;	
 	dev0_screen_id           = <0>;
-	dev0_do_hpd              = <0>;
+	dev0_do_hpd              = <1>;
 
-	dev1_output_type         = <4>;
-	dev1_output_mode         = <10>;
+	dev1_output_type         = <1>;
+	dev1_output_mode         = <4>;
 	dev1_screen_id           = <1>;
-	dev1_do_hpd              = <1>;
+	dev1_do_hpd              = <0>;
 
 	def_output_dev           = <0>;
 	hdmi_mode_check          = <1>;
@@ -1250,27 +1261,27 @@ pull up or pull down(default 0), driver level(default 1), data>
 &lcd0 {
 	lcd_used            = <1>;
 
-	lcd_driver_name     = "tft08006";
-	lcd_backlight       = <100>;
+	lcd_driver_name     = "jd9366ab_3";
+	lcd_backlight       = <50>;
 	lcd_if              = <4>;
 
 	lcd_x               = <800>;
 	lcd_y               = <1280>;
 	lcd_width           = <52>;
 	lcd_height          = <52>;
-	lcd_dclk_freq       = <70>;
+	lcd_dclk_freq       = <68>;
 
 	lcd_pwm_used        = <1>;
 	lcd_pwm_ch          = <2>;
-	lcd_pwm_freq        = <1000>;
+	lcd_pwm_freq        = <50000>;
 	lcd_pwm_pol         = <0>;
 	lcd_pwm_max_limit   = <255>;
 
-	lcd_hbp             = <32>;
-	lcd_ht              = <868>;
-	lcd_hspw            = <4>;
-	lcd_vbp             = <12>;
-	lcd_vt              = <1311>;
+	lcd_hbp             = <40>;
+	lcd_ht              = <860>;
+	lcd_hspw            = <20>;
+	lcd_vbp             = <24>;
+	lcd_vt              = <1330>;
 	lcd_vspw            = <4>;
 
 	lcd_dsi_if          = <0>;
