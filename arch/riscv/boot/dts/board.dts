@@ -1144,7 +1144,7 @@ chn_cfg_mode     : Hardware DE channel allocation config. 0:single display with 
 	disp_mode                = <0>;
 
 	screen0_output_type      = <3>;
-	screen0_output_mode      = <10>;
+	screen0_output_mode      = <2>;
 
 	screen0_output_format    = <0>;
 	screen0_output_bits      = <0>;
@@ -1174,8 +1174,8 @@ chn_cfg_mode     : Hardware DE channel allocation config. 0:single display with 
 	dev0_screen_id           = <0>;
 	dev0_do_hpd              = <1>;
 
-	dev1_output_type         = <1>;
-	dev1_output_mode         = <4>;
+	dev1_output_type         = <4>;
+	dev1_output_mode         = <2>;
 	dev1_screen_id           = <1>;
 	dev1_do_hpd              = <0>;
 
