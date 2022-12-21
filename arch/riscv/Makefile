@@ -43,8 +43,8 @@ riscv-march-aflags-$(CONFIG_ARCH_RV32I)		:= rv32ima
 riscv-march-aflags-$(CONFIG_ARCH_RV64I)		:= rv64ima
 riscv-march-aflags-$(CONFIG_FPU)		:= $(riscv-march-aflags-y)fd
 riscv-march-aflags-$(CONFIG_RISCV_ISA_C)	:= $(riscv-march-aflags-y)c
-riscv-march-aflags-$(CONFIG_VECTOR)		:= $(riscv-march-aflags-y)v
-riscv-march-aflags-$(CONFIG_RISCV_ISA_THEAD)	:= $(riscv-march-aflags-y)xthead
+riscv-march-aflags-$(CONFIG_VECTOR)		:= $(riscv-march-aflags-y)v0p7
+riscv-march-aflags-$(CONFIG_RISCV_ISA_THEAD)	:= $(riscv-march-aflags-y)v0p7xthead
 
 KBUILD_CFLAGS += -march=$(riscv-march-cflags-y) -Wa,-march=$(riscv-march-aflags-y)
 KBUILD_AFLAGS += -march=$(riscv-march-aflags-y)
